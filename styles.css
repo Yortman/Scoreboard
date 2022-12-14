@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url(/fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #0369A1;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #E0F2FE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: -20px;
+    text-shadow: 2px 2px 2px #00273b;
+}
+
+#home {
+    left: 85px;
+    top: 68px;
+}
+
+#guest {
+    right: 85px;
+    top: 68px;
+}
+
+.value {
+    position: absolute;
+    font-family: 'Cursed Timer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    padding-top: 5px;
+    text-align: center;
+    color: #e11d4e;
+}
+
+#home-scr {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 126px;
+    background-color: black;
+}
+
+#guest-scr {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    right: 82px;
+    top: 126px;
+    background-color: black;
+
+}
+
+.inc {
+    width: 45px;
+    height: 45px;
+    background-color: #0369A1;
+    border-radius: 5px;
+    border: 1px solid #E0F2FE;
+    color: #E0F2FE;
+    box-shadow: 2px 2px 5px #00273b;
+}
+
+.home-inc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+
+.guest-inc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    right: 82px;
+    top: 271px;
+}
+
+.reset {
+    position: absolute;
+    background-color: #E0F2FE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 1px solid #00273b;
+    color: #00273bc0;
+}
+
+.home {
+    position: absolute;
+    width: 155px;
+    height: 40px;
+    top: 335px;
+    right: 82px;
+}
+
+.guest {
+    position: absolute;
+    width: 155px;
+    height: 40px;
+    top: 335px;
+    left: 82px;
+}

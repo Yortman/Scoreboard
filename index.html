@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 id="home">HOME</h3>
+            </div>
+            <div>
+                <h3 id="guest">GUEST</h3>
+            </div>
+            <div class="score">
+                <h1 id="home-scr" class="value">0</h1>
+            </div>
+            <div class="score">
+                <h1 id="guest-scr" class="value">0</h1>
+            </div>
+            <div class="home-inc">
+                <button class="inc" onclick="one()">+1</button>
+                <button class="inc" onclick="two()">+2</button>
+                <button class="inc" onclick="three()">+3</button>
+            </div>
+            <div class="guest-inc">
+                <button class="inc" onclick="oneG()">+1</button>
+                <button class="inc" onclick="twoG()">+2</button>
+                <button class="inc" onclick="threeG()">+3</button>
+            </div>
+            <div>
+                <button class="reset home" onclick="resetHome()">Reset Home</button>
+                <button class="reset guest" onclick="resetGuest()">Reset Guest</button>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
