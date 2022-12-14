@@ -125,7 +125,7 @@ h3 {
     width: 155px;
     height: 40px;
     top: 335px;
-    right: 82px;
+    left: 82px;
 }
 
 .guest {
@@ -133,5 +133,5 @@ h3 {
     width: 155px;
     height: 40px;
     top: 335px;
-    left: 82px;
+    right: 82px;
 }
